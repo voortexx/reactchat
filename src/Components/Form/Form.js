@@ -61,19 +61,11 @@ export default class Form extends Component {
   render() {
     return (
       <div className="form">
-        <Spring
-          from={{ opacity: 0, transform: "scale(2)" }}
-          to={{ opacity: 1, transform: "scale(1)" }}
-          delay={800}
-        >
-          {props => (
-            <div style={props} className="form__message">
-              {this.state.list.map((item, index) => (
-                <Message key={index} message={item} />
-              ))}
-            </div>
-          )}
-        </Spring>
+        <div className="form__message">
+          {this.state.list.map((item, index) => (
+            <Message key={index} message={item} />
+          ))}
+        </div>
         <Spring
           from={{ opacity: 0, transform: "scale(2)" }}
           to={{ opacity: 1, transform: "scale(1)" }}
