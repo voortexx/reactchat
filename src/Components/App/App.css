@@ -25,7 +25,7 @@ h1 {
 }
 .app__button {
   border: 0;
-  border-radius: 0;
+  border-radius: 3px;
   padding: 10px 20px;
   color: #fff;
   font-weight: bold;
@@ -41,10 +41,11 @@ input {
   margin-left: 20px;
   width: 200px;
   padding: 9px 20px;
-  border-radius: 5px;
+  border-radius: 3px;
   border: 1px solid #ddd;
   box-sizing: border-box;
   outline: 0;
+  transition: all 0.3s;
 }
 
 input:focus {
