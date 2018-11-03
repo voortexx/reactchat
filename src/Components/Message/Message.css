@@ -1,0 +1,45 @@
+.message {
+  position: relative;
+  padding: 10px 60px 10px 20px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(255, 255, 255, 0.2);
+  text-align: left;
+  line-height: 1.7;
+  display: flex;
+}
+.message:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.message__author {
+  font-weight: 600;
+  margin-right: 10px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.message p {
+  margin: 0;
+}
+
+.avatar {
+  border-radius: 30px;
+  width: 50px;
+  height: 50px;
+  display: block;
+  overflow: hidden;
+  margin-right: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.avatar img {
+  max-width: 100%;
+  height: auto;
+}
+
+.avatar i {
+  font-size: 25px;
+  text-align: center;
+  margin: 11px auto 0;
+  display: block;
+  color: #222;
+}

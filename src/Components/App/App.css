@@ -1,0 +1,120 @@
+.app {
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0;
+}
+.app__logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+.app__header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+}
+.app__intro {
+  font-size: large;
+}
+.app__list {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  margin: 0 auto;
+}
+.app__button {
+  border: 0;
+  border-radius: 0;
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #ea4635;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: 0;
+}
+.app__button:hover {
+  background-color: #df2f1b;
+}
+input {
+  margin-left: 20px;
+  width: 200px;
+  padding: 9px 20px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+input:focus {
+  background-color: rgba(245, 243, 243, 0.7);
+  color: #fff;
+}
+input:focus::placeholder {
+  color: rgb(240, 240, 240);
+}
+h2 {
+  display: block;
+  margin-bottom: 0;
+}
+h2:after {
+  width: 200px;
+  display: block;
+  content: "";
+  color: #fff;
+  margin: 10px auto 0;
+  border-bottom: 1px solid #fff;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background: linear-gradient(227deg, #00b98a, #ae86ff, #47b6d0);
+  background-size: 600% 600%;
+  height: 100vh;
+
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 97%;
+  }
+  50% {
+    background-position: 100% 4%;
+  }
+  100% {
+    background-position: 0% 97%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 97%;
+  }
+  50% {
+    background-position: 100% 4%;
+  }
+  100% {
+    background-position: 0% 97%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 97%;
+  }
+  50% {
+    background-position: 100% 4%;
+  }
+  100% {
+    background-position: 0% 97%;
+  }
+}
